@@ -1,4 +1,4 @@
-package com.onboarding; // Changed package
+package com.onboarding;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.onboarding; // Changed package
+package com.onboarding;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
-// SequenceData and SequenceDataRepository are in the same package
 
 @RestController
 @RequestMapping("/api/data")

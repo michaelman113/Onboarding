@@ -1,12 +1,10 @@
-package com.onboarding; // Changed package
+package com.onboarding;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
-
-// StreamingService is in the same package
 
 @Component
 public class SequenceNumberHandler extends TextWebSocketHandler {

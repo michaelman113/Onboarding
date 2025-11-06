@@ -1,4 +1,4 @@
-package com.onboarding; // Changed package
+package com.onboarding;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
