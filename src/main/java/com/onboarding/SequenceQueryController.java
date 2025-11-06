@@ -23,8 +23,6 @@ public class SequenceQueryController {
     @GetMapping("/{sequenceNumber}")
     public ResponseEntity<SequenceData> getDataBySequenceNumber(@PathVariable Long sequenceNumber) {
         Optional<SequenceData> data = repository.findById(sequenceNumber);
-        
-        return data.map(ResponseEntity::ok)
-                   .orElse(ResponseEntity.notFound().build());
+        return data.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 }

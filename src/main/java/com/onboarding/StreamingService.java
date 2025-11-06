@@ -38,7 +38,6 @@ public class StreamingService {
         long number = counter.incrementAndGet();
         String distinctString = UUID.randomUUID().toString();
         SequenceData data = new SequenceData(number, distinctString);
-
         repository.save(data);
 
         try {

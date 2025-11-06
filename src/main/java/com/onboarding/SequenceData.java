@@ -10,7 +10,6 @@ public class SequenceData {
 
     @Id
     private long sequenceNumber;
-    
     private String randomString;
 
     public SequenceData() {
@@ -29,9 +28,6 @@ public class SequenceData {
 
     @Override
     public String toString() {
-        return "SequenceData{" +
-                "sequenceNumber=" + sequenceNumber +
-                ", randomString='" + randomString + '\'' +
-                '}';
+        return "SequenceData{" + "sequenceNumber=" + sequenceNumber + ", randomString='" + randomString + '\'' +'}';
     }
 }
